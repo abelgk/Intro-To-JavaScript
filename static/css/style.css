@@ -120,12 +120,12 @@ select {
 /* input placeholder color changes */
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #8e979f;
+  color: #707f8a;
 }
 
 .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #8e979f;
+  color: #18232c;
 }
 
 .form-control:-ms-input-placeholder {
@@ -212,6 +212,18 @@ select {
     font-size: 5.5rem;
     opacity: 1;
   }
+}
+.button {
+  background-color: rgb(12, 11, 20); /* Green */
+  border: 3px solid rgb(114, 116, 114);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 @keyframes subtitle {
